@@ -1,0 +1,63 @@
+/* - - - - - - - - - - - - - - - - - - - - -
+
+ Title : Example Custom CSS : DinoMaster!
+ Author : Infinity Box Inc.
+ URL : http://wufoo.com
+
+ Last Updated : April 1, 2011
+
+- - - - - - - - - - - - - - - - - - - - - 
+
+INSTRUCTIONS
+1. Copy / Paste all or portions of these
+CSS rules into "custom.css".
+
+2. Experiment and play.
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+h2 {
+  display: none;
+}
+li {
+  border-radius: 10px;
+}
+.buttons {
+  text-align: center;
+}
+.wufoo li.focused {
+  background-color: rgba(255, 255, 255, .5);
+}
+#saveForm {
+  background-color: #24B224;
+  background-image: -moz-linear-gradient(top, #2EDB2E, #24B224);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2EDB2E), color-stop(1, #24B224));
+  background-image: -webkit-linear-gradient(#2EDB2E, #24B224);
+  background-image: linear-gradient(top, #2EDB2E, #24B224);
+  border: 5px solid #178717;
+  border-radius: 50px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-family: museo-sans, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  margin: 25px auto 5px;
+  padding: 10px;
+  text-shadow: 1px 1px 0px #222;
+  text-transform: uppercase;
+  width: 300px;
+}
+  #saveForm:hover {
+    background-color: #3bcc3b;
+    background-image: -moz-linear-gradient(top, #55f255, #3bcc3b);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #55f255), color-stop(1, #3bcc3b));
+    background-image: -webkit-linear-gradient(#55f255, #3bcc3b);
+    background-image: linear-gradient(top, #55f255, #3bcc3b); }
+  #saveForm:active {
+    background-color: #2edb2e;
+    background-image: -moz-linear-gradient(top, #24b224, #2edb2e);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #24b224), color-stop(1, #2edb2e));
+    background-image: -webkit-linear-gradient(#24b224, #2edb2e);
+    background-image: linear-gradient(top, #24b224, #2edb2e); }

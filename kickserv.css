@@ -1,0 +1,29 @@
+/* Logo */
+#logo a {
+  background: url('https://s3.amazonaws.com/assets.kickserv.com/kickserv.png') 229px 15px no-repeat;
+  padding: 15px 0;
+  min-height:0;
+  height:57px
+}
+* html #logo a {/* IE6 png Support */
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://s3.amazonaws.com/assets.kickserv.com/kickserv.png", sizingMethod="crop");
+}
+
+/* Backgrounds */
+html{
+  background-image:none;
+  background-color:#e0dfdf
+}
+#logo{
+  background-image:none;
+  background-color:#2d9adf
+}
+#header {
+  background: url('https://s3.amazonaws.com/assets.kickserv.com/kickserv.jpg') no-repeat bottom;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 285px;
+}
+#header h2, #header div {
+  text-align: center;
+}
