@@ -213,7 +213,7 @@ td { vertical-align: top; }
    ========================================================================== */
 
 body {
-  background: url(/images/soft_tan.jpg);
+  background: url(../images/soft_tan.jpg);
   font-family: museo-sans, sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -223,7 +223,7 @@ body {
   font-weight: 900;
 }
 header {
-  background: url(/images/soft_orange.jpg);
+  background: url(../images/soft_orange.jpg);
   height: 615px;
   padding: 35px 0 0 0
 }
@@ -231,7 +231,7 @@ header {
     padding-top: 80px;
   }
   #logo {
-    background: url(/images/logo.png) no-repeat left top;
+    background: url(../images/logo.png) no-repeat left top;
     height: 235px;
     text-indent: -999em;
     width: 501px;
@@ -258,7 +258,7 @@ header {
   width: 800px;
 }
 #nav {
-  background: url(/images/nav_back.gif) repeat-x left center;
+  background: url(../images/nav_back.gif) repeat-x left center;
   color: #eee;
   font-size: 16px;
   font-weight: bold;
@@ -292,7 +292,7 @@ header {
         color: #fff;
       }
     #nav li a#nav_logo {
-      background: url(/images/nav_logo.png) no-repeat center top;
+      background: url(../images/nav_logo.png) no-repeat center top;
       display: inline-block;
       height: 29px;
       padding: 0 30px;
@@ -391,7 +391,7 @@ h2 {
 h3 {
   font-size: 24px;
   text-align: center;
-  text-transform: uppercase;  
+  text-transform: uppercase;
 }
 #pricing {
   text-align: center;
@@ -401,7 +401,7 @@ h3 {
   font-size: 16px;
 }
 .price {
-  background: url(/images/500_teal.png) no-repeat;
+  background: url(../images/500_teal.png) no-repeat;
   display: block;
   height: 101px;
   margin: 0 auto 10px;
